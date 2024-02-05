@@ -19,7 +19,7 @@ These steps aim to organize and prepare the dataset for analysis and potential m
 
 1.Box Plots:
 
-    a)Compares age, BMI, HbA1c percentage, and blood glucose level between diabetics and non-diabetics.
+      a)Compares age, BMI, HbA1c percentage, and blood glucose level between diabetics and non-diabetics.
    
 2.Bar Charts:
 
@@ -99,6 +99,18 @@ Findings:
 
     a)The chi-squared test indicated a statistically significant association between diabetes status and smoking history.
     b)Former smoking status was significantly higher for diabetics compared to non-diabetics, as per the alternative hypothesis.
+
+1) - Is the likelihood of having either hypertension, heart disease, or both conditions significantly higher for diabetics compared to non-diabetics?
+
+Conclusion: The investigation found that diabetics have a notably higher chance of developing hypertension, heart disease, or both compared to non-diabetics. 
+
+2) - Is average Body Mass Index (BMI) significantly higher for individuals with diabetes?
+
+Conclusion: The investigation found that individuals with diabetes have notably higher average BMI levels compared to those without diabetes. 
+
+3) - Is the likelihood of having a current or former smoking history significantly higher for diabetics compared to non-diabetics?
+
+Conclusion: The investigation found that individuals with diabetes are significantly more likely to have a current or former smoking history compared to those without diabetes.
 
 
 
