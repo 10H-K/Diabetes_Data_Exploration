@@ -52,7 +52,7 @@ These visualizations and aggregations help understand the dataset before further
        
 These visualizations serve to guide hypothesis testing and provide insights into potential relationships between variables in the diabetes dataset.
 
-# Relationship of Diabetes Status with Hypertension & Heart Disease
+# Is the likelihood of having either hypertension, heart disease, or both conditions significantly higher for diabetics compared to non-diabetics?
 Hypothesis Testing:
 
     a)Null Hypothesis (H0): Likelihood of hypertension, heart disease, or both is equal for diabetics and non-diabetics.
@@ -68,9 +68,9 @@ Percentages Visualization:
     a)Shows percentages of individuals with each condition category for diabetics and non-diabetics.
     b)Helps visualize the distribution differences between diabetics and non-diabetics.
     
-This analysis investigates the association between diabetes status and the presence of hypertension or heart disease.
+Conclusion: The investigation found that diabetics have a notably higher chance of developing hypertension, heart disease, or both compared to non-diabetics. 
 
-# Relationship of Diabetes Status and Age with BMI
+# Is average Body Mass Index (BMI) significantly higher for individuals with diabetes?
 Hypothesis Testing:
 
     a)Null Hypothesis (H0): No significant difference exists in average BMI levels between individuals with and without diabetes, regardless of age.
@@ -81,7 +81,9 @@ Mann-Whitney U Test:
     a)Utilized Mann-Whitney U test to compare average BMI levels between diabetics and non-diabetics across different age quartiles.
     b)Significant p-values support the alternative hypothesis, indicating higher BMI levels among individuals with diabetes regardless of age.
 
-# Relationship of Diabetes Status with Smoking History
+Conclusion: The investigation found that individuals with diabetes have notably higher average BMI levels compared to those without diabetes. 
+
+# Is the likelihood of having a current or former smoking history significantly higher for diabetics compared to non-diabetics?
 Hypothesis Testing:
 
     a)Null Hypothesis (H0): The likelihood of having either a current or former history with smoking is the same for both diabetics and non-diabetics.
@@ -100,18 +102,10 @@ Findings:
     a)The chi-squared test indicated a statistically significant association between diabetes status and smoking history.
     b)Former smoking status was significantly higher for diabetics compared to non-diabetics, as per the alternative hypothesis.
 
-
-# Is the likelihood of having either hypertension, heart disease, or both conditions significantly higher for diabetics compared to non-diabetics?
-
-Conclusion: The investigation found that diabetics have a notably higher chance of developing hypertension, heart disease, or both compared to non-diabetics. 
-
-# Is average Body Mass Index (BMI) significantly higher for individuals with diabetes?
-
-Conclusion: The investigation found that individuals with diabetes have notably higher average BMI levels compared to those without diabetes. 
-
-# Is the likelihood of having a current or former smoking history significantly higher for diabetics compared to non-diabetics?
-
 Conclusion: The investigation found that individuals with diabetes are significantly more likely to have a current or former smoking history compared to those without diabetes.
+
+
+
 
 
 
