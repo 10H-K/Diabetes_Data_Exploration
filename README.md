@@ -3,10 +3,14 @@
 Objective:
 The provided Python script loads a CSV file containing diabetes prediction data, cleans and organizes the data, and performs initial exploratory data analysis.
 
-1 .Load the diabetes prediction dataset and rename columns.
-2 .Check for null values and explore the distribution of values in each column.
-3.Standardize values in the Smoking History column.
+1. Load the diabetes prediction dataset and rename columns.
+
+2. Check for null values and explore the distribution of values in each column.
+
+3. Standardize values in the Smoking History column.
+
 4. Create quartiles for the Age column to divide the data into four equal parts.
+   
 5. Print quartile cutoffs to understand the age ranges for each quartile.
 
 These steps aim to organize and prepare the dataset for analysis and potential machine learning tasks.
