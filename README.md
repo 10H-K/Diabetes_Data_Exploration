@@ -100,6 +100,7 @@ Findings:
     a)The chi-squared test indicated a statistically significant association between diabetes status and smoking history.
     b)Former smoking status was significantly higher for diabetics compared to non-diabetics, as per the alternative hypothesis.
 
+
 1) - Is the likelihood of having either hypertension, heart disease, or both conditions significantly higher for diabetics compared to non-diabetics?
 
 Conclusion: The investigation found that diabetics have a notably higher chance of developing hypertension, heart disease, or both compared to non-diabetics. 
