@@ -81,7 +81,7 @@ Mann-Whitney U Test:
     a)Utilized Mann-Whitney U test to compare average BMI levels between diabetics and non-diabetics across different age quartiles.
     b)Significant p-values support the alternative hypothesis, indicating higher BMI levels among individuals with diabetes regardless of age.
 
-#Relationship of Diabetes Status with Smoking History
+# Relationship of Diabetes Status with Smoking History
 Hypothesis Testing:
 
     a)Null Hypothesis (H0): The likelihood of having either a current or former history with smoking is the same for both diabetics and non-diabetics.
