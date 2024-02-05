@@ -68,7 +68,7 @@ Percentages Visualization:
     a)Shows percentages of individuals with each condition category for diabetics and non-diabetics.
     b)Helps visualize the distribution differences between diabetics and non-diabetics.
     
-Conclusion: The investigation found that diabetics have a notably higher chance of developing hypertension, heart disease, or both compared to non-diabetics. 
+    Conclusion: The investigation found that diabetics have a notably higher chance of developing hypertension, heart disease, or both compared to non-diabetics.
 
 # Is average Body Mass Index (BMI) significantly higher for individuals with diabetes?
 Hypothesis Testing:
@@ -81,7 +81,7 @@ Mann-Whitney U Test:
     a)Utilized Mann-Whitney U test to compare average BMI levels between diabetics and non-diabetics across different age quartiles.
     b)Significant p-values support the alternative hypothesis, indicating higher BMI levels among individuals with diabetes regardless of age.
 
-Conclusion: The investigation found that individuals with diabetes have notably higher average BMI levels compared to those without diabetes. 
+    Conclusion: The investigation found that individuals with diabetes have notably higher average BMI levels compared to those without diabetes. 
 
 # Is the likelihood of having a current or former smoking history significantly higher for diabetics compared to non-diabetics?
 Hypothesis Testing:
@@ -102,7 +102,7 @@ Findings:
     a)The chi-squared test indicated a statistically significant association between diabetes status and smoking history.
     b)Former smoking status was significantly higher for diabetics compared to non-diabetics, as per the alternative hypothesis.
 
-Conclusion: The investigation found that individuals with diabetes are significantly more likely to have a current or former smoking history compared to those without diabetes.
+    Conclusion: The investigation found that individuals with diabetes are significantly more likely to have a current or former smoking history compared to those without diabetes.
 
 
 
