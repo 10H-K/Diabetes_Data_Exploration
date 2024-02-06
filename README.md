@@ -47,8 +47,7 @@ These visualizations and aggregations help understand the dataset before further
     b)Rows with "N/A" smoking history are removed to prevent distortion of correlation results.
     c)Both gender and smoking history are label encoded before computing the correlation matrix.
     d)The heatmap shows the correlation matrix with smoking history included.
-    e)Deletion of rows with "N/A" smoking history removes significant data, which could distort correlation analysis.
-    f)Correlation matrices are more suitable for continuous numerical data, and manual calculations may be more appropriate for categorical variables.
+    e)Deletion of rows with "N/A" smoking history removes significant data, which distorts correlation analysis.
        
 These visualizations serve to guide hypothesis testing and provide insights into potential relationships between variables in the diabetes dataset.
 
@@ -68,7 +67,9 @@ Percentages Visualization:
     a)Shows percentages of individuals with each condition category for diabetics and non-diabetics.
     b)Helps visualize the distribution differences between diabetics and non-diabetics.
     
-    Conclusion: The investigation found that diabetics have a notably higher chance of developing hypertension, heart disease, or both compared to non-diabetics.
+Conclusion:
+    
+    The investigation found that diabetics have a notably higher chance of developing hypertension, heart disease, or both compared to non-diabetics.
 
 # Is average Body Mass Index (BMI) significantly higher for individuals with diabetes?
 Hypothesis Testing:
@@ -81,7 +82,14 @@ Mann-Whitney U Test:
     a)Utilized Mann-Whitney U test to compare average BMI levels between diabetics and non-diabetics across different age quartiles.
     b)Significant p-values support the alternative hypothesis, indicating higher BMI levels among individuals with diabetes regardless of age.
 
-    Conclusion: The investigation found that individuals with diabetes have notably higher average BMI levels compared to those without diabetes. 
+Average BMI Visualization:
+
+    a)Shows average BMI per age quartile for diabetics and non-diabetics.
+    b)Helps visualize the differences in average BMI between diabetics and non-diabetics.
+
+Conclusion:
+    
+    The investigation found that individuals with diabetes have notably higher average BMI levels compared to those without diabetes. 
 
 # Is the likelihood of having a current or former smoking history significantly higher for diabetics compared to non-diabetics?
 Hypothesis Testing:
@@ -102,7 +110,9 @@ Findings:
     a)The chi-squared test indicated a statistically significant association between diabetes status and smoking history.
     b)Former smoking status was significantly higher for diabetics compared to non-diabetics, as per the alternative hypothesis.
 
-    Conclusion: The investigation found that individuals with diabetes are significantly more likely to have a current or former smoking history compared to those without diabetes.
+Conclusion:
+    
+    The investigation found that individuals with diabetes are significantly more likely to have a former smoking history compared to those without diabetes.
 
 
 
