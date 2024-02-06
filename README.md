@@ -20,10 +20,14 @@ These steps aim to organize and prepare the dataset for analysis and potential m
 1.Box Plots:
 
       a)Compares age, BMI, HbA1c percentage, and blood glucose level between diabetics and non-diabetics.
-   
+
+![output](https://github.com/10H-K/diabetes/assets/152930492/92b37e17-d962-41b6-99d5-cce1ec401903)
+
 2.Bar Charts:
 
     a)Shows the counts of hypertension, heart disease, gender distribution, and smoking history among diabetics and non-diabetics.
+
+![output](https://github.com/10H-K/diabetes/assets/152930492/ae5d2d65-c720-48cb-ba21-08d9c3f6d3d1)
 
 3.Data Aggregation:
 
@@ -40,7 +44,9 @@ These visualizations and aggregations help understand the dataset before further
     b)Gender is mapped to numeric values (label encoding).
     c)The correlation matrix is calculated and visualized using a heatmap to explore relationships among numerical variables.
     d)Correlation coefficients are annotated for easier interpretation.
-       
+
+![output](https://github.com/10H-K/diabetes/assets/152930492/622b4bc0-6488-4f63-a581-9b3501570980)
+
 2.Explanation for Deletion of Smoking History:
 
     a)Another correlation matrix is created with smoking history included.
@@ -48,7 +54,9 @@ These visualizations and aggregations help understand the dataset before further
     c)Both gender and smoking history are label encoded before computing the correlation matrix.
     d)The heatmap shows the correlation matrix with smoking history included.
     e)Deletion of rows with "N/A" smoking history removes significant data, which distorts correlation analysis.
-       
+
+![output](https://github.com/10H-K/diabetes/assets/152930492/e454e925-4df3-4013-ad0a-cfc4752bbb18)
+
 These visualizations serve to guide hypothesis testing and provide insights into potential relationships between variables in the diabetes dataset.
 
 # Is the likelihood of having either hypertension, heart disease, or both conditions significantly higher for diabetics compared to non-diabetics?
@@ -56,6 +64,8 @@ Hypothesis Testing:
 
     a)Null Hypothesis (H0): Likelihood of hypertension, heart disease, or both is equal for diabetics and non-diabetics.
     b)Alternative Hypothesis (H1): Likelihood of hypertension, heart disease, or both is significantly higher for diabetics.
+
+![output](https://github.com/10H-K/diabetes/assets/152930492/9c8d4569-7968-445b-8a37-ada9ad22c095)
 
 Z-Test of Proportions:
 
@@ -66,7 +76,9 @@ Percentages Visualization:
 
     a)Shows percentages of individuals with each condition category for diabetics and non-diabetics.
     b)Helps visualize the distribution differences between diabetics and non-diabetics.
-    
+
+![output](https://github.com/10H-K/diabetes/assets/152930492/2add401f-01a7-4c92-a0f7-b2ff9d1def22)
+
 Conclusion:
     
     The investigation found that diabetics have a notably higher chance of developing hypertension, heart disease, or both compared to non-diabetics.
@@ -76,6 +88,8 @@ Hypothesis Testing:
 
     a)Null Hypothesis (H0): No significant difference exists in average BMI levels between individuals with and without diabetes, regardless of age.
     b)Alternative Hypothesis (H1): Average BMI levels are significantly higher for individuals with diabetes compared to those without diabetes, irrespective of age.
+
+![output](https://github.com/10H-K/diabetes/assets/152930492/a1dfc338-3d1a-4219-9d95-d1cccec031e6)
 
 Mann-Whitney U Test:
 
@@ -87,6 +101,8 @@ Average BMI Visualization:
     a)Shows average BMI per age quartile for diabetics and non-diabetics.
     b)Helps visualize the differences in average BMI between diabetics and non-diabetics.
 
+![output](https://github.com/10H-K/diabetes/assets/152930492/fdff0650-0e79-4698-9fb9-4782068cfb3b)
+
 Conclusion:
     
     The investigation found that individuals with diabetes have notably higher average BMI levels compared to those without diabetes. 
@@ -96,6 +112,8 @@ Hypothesis Testing:
 
     a)Null Hypothesis (H0): The likelihood of having either a current or former history with smoking is the same for both diabetics and non-diabetics.
     b)Alternative Hypothesis (H1): The likelihood of having either a current or former history with smoking is significantly higher for diabetics compared to non-diabetics.
+
+![output](https://github.com/10H-K/diabetes/assets/152930492/c787a8a9-e1f4-42b9-897e-ecbc7021c94a)
 
 Analysis Steps:
 
@@ -110,16 +128,11 @@ Findings:
     a)The chi-squared test indicated a statistically significant association between diabetes status and smoking history.
     b)Former smoking status was significantly higher for diabetics compared to non-diabetics, as per the alternative hypothesis.
 
+![output](https://github.com/10H-K/diabetes/assets/152930492/0d0ad7ce-0ec9-4f0e-b90c-0d927d31ebeb)
+
 Conclusion:
     
     The investigation found that individuals with diabetes are significantly more likely to have a former smoking history compared to those without diabetes.
-
-
-
-
-
-
-   
 
 
 
