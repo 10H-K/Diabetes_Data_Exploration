@@ -39,22 +39,22 @@ These steps aim to organize and prepare the dataset for analysis and potential m
 These visualizations and aggregations help understand the dataset before further analysis or modeling for diabetes prediction.
 
 # Visualization of Correlation Matrices to Guide Hypothesis Testing
-1. Correlation Matrix without Smoking History:
+1.Correlation Matrix without Smoking History:
 
-  - a) Smoking history is removed due to its categorical nature, making it incompatible with correlation analysis.
-  - b) Gender is mapped to numeric values (label encoding).
-  - c) The correlation matrix is calculated and visualized using a heatmap to explore relationships among numerical variables.
-  - d) Correlation coefficients are annotated for easier interpretation.
+    a) Smoking history is removed due to its categorical nature, making it incompatible with correlation analysis.
+    b) Gender is mapped to numeric values (label encoding).
+    c) The correlation matrix is calculated and visualized using a heatmap to explore relationships among numerical variables.
+    d) Correlation coefficients are annotated for easier interpretation.
 
 ![output](https://github.com/10H-K/diabetes/assets/152930492/622b4bc0-6488-4f63-a581-9b3501570980)
 
-2. Explanation for Deletion of Smoking History:
+2.Explanation for Deletion of Smoking History:
 
-  - a) Another correlation matrix is created with smoking history included.
-  - b) Rows with "N/A" smoking history are removed to prevent distortion of correlation results.
-  - c) Both gender and smoking history are label encoded before computing the correlation matrix.
-  - d) The heatmap shows the correlation matrix with smoking history included.
-  - e) Deletion of rows with "N/A" smoking history removes significant data, which distorts the correlation analysis.
+    a) Another correlation matrix is created with smoking history included.
+    b) Rows with "N/A" smoking history are removed to prevent distortion of correlation results.
+    c) Both gender and smoking history are label encoded before computing the correlation matrix.
+    d) The heatmap shows the correlation matrix with smoking history included.
+    e) Deletion of rows with "N/A" smoking history removes significant data, which distorts the correlation analysis.
 
 ![output](https://github.com/10H-K/diabetes/assets/152930492/e454e925-4df3-4013-ad0a-cfc4752bbb18)
 
